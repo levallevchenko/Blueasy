@@ -1,0 +1,18 @@
+.site-list {
+	.reset-list();
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.site-list__item {
+	&--active {
+		border: 1px solid @blue;
+		padding: 11px 20px;
+	}
+}
+
+.site-list__item-link {
+	text-decoration: none;
+	color: @text;
+}
